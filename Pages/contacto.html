@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sofadi+One&display=swap" rel="stylesheet">
+    <title>Contacto - Cervelandia</title>
+    <link rel="stylesheet" href="/styles/contacto.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <h2 class="ho">CERVELANDIA</h2>
+        </a>
+        <img src="/imagenes/Banner-Cerveza.jpg" alt="bannner">
+        <NAV>
+            <UL>
+                <LI> <a href="/Pages/nuestrascervezas.html">NUESTRAS CERVEZAS</a> </LI>
+                <LI><a href="/Pages/ubicacion.html">UBICACION</a></LI>
+                <LI><a href="/Pages/nuestrahistoria.html">NUESTRA HISTORIA</a></LI>
+                <LI><a href="/Pages/contacto.html">CONTACTO</a></LI>
+                <LI><a href="/Pages/paraevento.html">PARA EVENTO</a></LI>
+            </UL>
+        </NAV>
+    </header>
+    <main>
+        <div id="reg">
+        <form action="registro" class="registro">
+            <div>
+                 <label for="nombre">Nombre:</label>	
+                 <input type="text" name="nombre" >
+            </div>
+            <div>
+                 <select name="sexo" id="sexo">
+                 <option disabled selected >sexo</option>
+                 <option value="masculino">masculino</option>
+                 <option value="femenino">femenino</option>
+                 <option value="otro">otro</option>
+                 </select>
+            </div>
+            <div>
+                 <label for="numero">Número:</label>
+                 <input type="number">
+            </div>
+            <div>
+                 <label for="email">email:</label>
+                 <input type="email">
+            </div>
+            <div>
+                 <label for="siono">¿Desea recibir nestras ofertas?</label>
+                 <input type="radio" name="siono" id="SI">SI
+                 <label for="siono"></label>
+                 <input type="radio" name="siono" id="NO">NO
+            </div>
+                
+            <div>
+                 <label for="mensaje">Mensaje:</label>
+                 <textarea name="" id="mensaje" cols="20" rows="5"></textarea>
+            </div>
+            
+            <div>
+                 <input type="reset">
+                 <input type="submit">
+            </div>    
+        </form>
+        </div>
+
+        <div id="grilla">
+            <div>
+                <img src="/imagenes/logos contacto/mail2.jpg" alt="mail" class="mail">
+                <p class="pmail">cervelandia@hotmail.com</p>
+
+            </div>
+            <div>
+                <a href="https://www.instagram.com/">
+                    <img src="/imagenes/logos contacto/Instagram.png" alt="insta" class="insta">
+                   </a>
+
+            </div>
+            <div>
+                <img src="/imagenes/logos contacto/whatsapp.webp" alt="whatsapp" class="whatsapp">
+                <p class="pwhatsapp">1188992277</p>
+
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div>
+            <h3 class="fo">CERVELANDIA</h3>
+            <a href="../index.html">inicio</a>
+            <p>contacto: cervelandia@hotmail.com</p>
+            <p>whatsapp: 1188992277</p>  
+        </div>
+    </footer>
+    
+</body>
+</html>
