@@ -1,0 +1,34 @@
+/* desktop*/
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(227, 160, 72);
+    font-family: "Permanent Marker", cursive;
+    ul{
+        display: flex;
+        list-style-type: none;
+        li{
+            height: 50px;
+            display: inline-flex;
+            width: 19%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(227, 160, 72);
+    font-family: "Ubuntu", sans-serif;
+    .fo{
+        font-family: "Bevan", serif;
+     }
+}
+/*fin desktop*/
