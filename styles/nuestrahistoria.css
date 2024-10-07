@@ -3,22 +3,22 @@
     margin: 0;
 }
 /*header*/
-.ho{
+h1{
     background-color: aqua;
     text-align: center;
     font-family: "Bevan", serif;
 }
-img{
+#banner{
     height: 400px;
     width: 100%;
 }
 header{
-    height: 490px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;  
 }
 nav{
-    height: 10%;
+    height: 50px;
     width: 100%;
     background-color: rgb(227, 160, 72);
     font-family: "Permanent Marker", cursive;
@@ -68,6 +68,7 @@ footer{
     width: 100%;
     background-color: rgb(227, 160, 72);
     font-family: "Ubuntu", sans-serif;
+    padding: 0 0 0 5px
 }
  .fo{
     font-family: "Bevan", serif;
@@ -130,6 +131,7 @@ footer{
     footer{
         height: 100px;
         width: 100%;
+        padding: 0 0 0 5px
     }
     /*fin footer*/
 }
