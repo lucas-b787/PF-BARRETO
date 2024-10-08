@@ -1,0 +1,102 @@
+$medida: 300px;
+
+/*main*/
+.mainnc{
+    height: 1200px;
+    width: 100%;
+    padding-top: 100px;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+    background-size: cover;
+}
+#grillanc{
+    display: grid;
+    height: 1100px;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: "a1 a2 a3"
+                         "a4 a5 a6"
+                         "a7 a8 a9";
+
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    grid-row-gap: 30px;
+}
+img:hover{
+    height: 350px;
+    width: 350px;
+}
+.ipa{ 
+    grid-area: "a1";
+    height: $medida;
+    width: $medida;    
+}
+.apa{
+   grid-area: "a2";
+   height: $medida;
+   width: $medida;
+}
+.blonde{
+    grid-area: "a3";
+    height: $medida;
+    width: $medida;
+}
+.amber{
+    grid-area: "a4";
+    height: $medida;
+    width: $medida;
+}
+.argenta{
+    grid-area: "a5";
+    height: $medida;
+    width: $medida;
+}
+.scottish{
+    grid-area: "a6";
+    height: $medida;
+    width: $medida;
+}
+.stout{
+    grid-area: "a7";
+    height: $medida;
+    width: $medida;
+}
+.honey{
+    grid-area: "a8";
+    height: $medida;
+    width: $medida;   
+}
+.img{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    background-color: antiquewhite;   
+}
+/*main*/
+/*para mobil*/
+@media only screen and (max-width:600px) { 
+    /*main*/
+    .mainnc{
+        height: 3000px;
+        background-size: contain;      
+    }
+    #grillanc{
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-rows: 350px;
+        grid-template-columns: 300px;
+        grid-template-areas: "a1"
+                             "a2"
+                             "a3"
+                             "a4"
+                             "a5"
+                             "a6"
+                             "a7"
+                             "a8";
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    /*fin main*/
+}
+/*fin para mobil*/

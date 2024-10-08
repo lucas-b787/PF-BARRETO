@@ -1,0 +1,98 @@
+$medida: 300px;
+
+.mainpe{
+    height: 1000px;
+    width: 100%;
+    padding-top: 100px;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+    background-size: cover;
+}
+.parrafo{
+    text-align: center;
+    font-family: "Sofadi One", system-ui;
+    font-size: 25px;
+    padding: 0 0 30px 0;
+}
+#grillape{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-rows: 350px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-areas: "a1 a2 a3 a4";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+img:hover{
+    height: 350px;
+    width: 350px;
+}
+.imgp{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+.simple{
+    grid-area: "a1";
+    height: $medida;
+    width: $medida;
+}
+.doble{
+    grid-area: "a2";
+    height: $medida;
+    width: $medida;
+}
+.diez{
+    grid-area: "a3";
+    height: $medida;
+    width: $medida;
+}
+.veinte{
+    grid-area: "a4";
+    height: $medida;
+    width: $medida;
+}
+/*para mobil*/
+@media only screen and (max-width:600px) { 
+    /*main*/
+    .mainpe{
+        height: 2000px;
+        background-size: contain;      
+    }
+    #grillape{
+        display: grid;
+        width: 100%;
+        height: 1500px;
+        grid-template-rows: 350px;
+        grid-template-columns: 300px;
+        grid-template-areas: "a1"
+                             "a2"
+                             "a3"
+                             "a4" ;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .parrafo{
+        padding: 0 10px 0 10px;
+        text-align: center;
+    }
+    .simple{
+        grid-area: "a1";
+        padding: 0;
+    }
+    .doble{
+        grid-area: "a2";
+        padding: 0;
+    }
+    .diez{
+        grid-area: "a3";
+        padding: 0;
+    }
+    .veinte{
+        grid-area: "a4";
+        padding: 0;
+    }
+    /*fin main*/
+}
+/*fin para mobil*/

@@ -1,15 +1,470 @@
+/*main*/
+.maincon {
+  height: 650px;
+  width: 100%;
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+  background-size: cover;
+}
+
+.registro {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Sofadi One", system-ui;
+}
+
+#mensaje {
+  vertical-align: top;
+}
+
+#grillacon {
+  display: grid;
+  height: 300px;
+  grid-template-rows: 350px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-areas: "a1 a2 a3";
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img:hover {
+  height: 350px;
+  width: 350px;
+}
+
+.mail {
+  height: 300px;
+  width: 300px;
+  grid-area: "a1";
+}
+
+.pmail {
+  height: 10px;
+  width: 300px;
+  text-align: center;
+  font-family: "Sofadi One", system-ui;
+  font-size: 25px;
+}
+
+.insta {
+  height: 300px;
+  width: 300px;
+  grid-area: "a2";
+}
+
+.whatsapp {
+  height: 300px;
+  width: 300px;
+  grid-area: "a3";
+}
+
+.pwhatsapp {
+  height: 10px;
+  width: 300px;
+  text-align: center;
+  font-family: "Sofadi One", system-ui;
+  font-size: 25px;
+}
+
+/*fin main*/
+/*para mobil*/
+@media only screen and (max-width: 600px) {
+  /*main*/
+  .maincon {
+    height: 1400px;
+    background-size: contain;
+  }
+  .registro {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  #grillacon {
+    display: grid;
+    height: 1100px;
+    grid-template-rows: 350px;
+    grid-template-columns: 300px;
+    grid-template-areas: "a1" "a2" "a3";
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /*fin main*/
+}
+/*fin para mobil*/
+/*main*/
+.mainnh {
+  height: 700px;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+  background-size: cover;
+}
+
+.parrafonh {
+  text-align: center;
+  font-family: "Sofadi One", system-ui;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+
+.fabrica {
+  height: 400px;
+  width: 600px;
+  padding: 30px 100px 50px 20px;
+}
+
+.iframenh {
+  padding: 0 100px 50px 50px;
+}
+
+/*para mobil*/
+@media only screen and (max-width: 600px) {
+  /*main*/
+  .mainnh {
+    height: 1000px;
+    background-size: contain;
+    padding-top: 50px;
+  }
+  #grillanh {
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-columns: 300px;
+    grid-template-areas: "a1" "a2" "a3";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .parrafonh {
+    padding: 0 10px 0 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .fabrica {
+    grid-area: "a1";
+    height: 300px;
+    width: 300px;
+    padding: 0;
+  }
+  .iframenh {
+    grid-area: "a2";
+    height: 300px;
+    width: 300px;
+    padding: 0;
+  }
+  /*fin main*/
+}
+/*fin para mobil*/
+/*main*/
+.mainnc {
+  height: 1200px;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+  background-size: cover;
+}
+
+#grillanc {
+  display: grid;
+  height: 1100px;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-areas: "a1 a2 a3" "a4 a5 a6" "a7 a8 a9";
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  grid-row-gap: 30px;
+}
+
+img:hover {
+  height: 350px;
+  width: 350px;
+}
+
+.ipa {
+  grid-area: "a1";
+  height: 300px;
+  width: 300px;
+}
+
+.apa {
+  grid-area: "a2";
+  height: 300px;
+  width: 300px;
+}
+
+.blonde {
+  grid-area: "a3";
+  height: 300px;
+  width: 300px;
+}
+
+.amber {
+  grid-area: "a4";
+  height: 300px;
+  width: 300px;
+}
+
+.argenta {
+  grid-area: "a5";
+  height: 300px;
+  width: 300px;
+}
+
+.scottish {
+  grid-area: "a6";
+  height: 300px;
+  width: 300px;
+}
+
+.stout {
+  grid-area: "a7";
+  height: 300px;
+  width: 300px;
+}
+
+.honey {
+  grid-area: "a8";
+  height: 300px;
+  width: 300px;
+}
+
+.img {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  background-color: antiquewhite;
+}
+
+/*main*/
+/*para mobil*/
+@media only screen and (max-width: 600px) {
+  /*main*/
+  .mainnc {
+    height: 3000px;
+    background-size: contain;
+  }
+  #grillanc {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 350px;
+    grid-template-columns: 300px;
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7" "a8";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  /*fin main*/
+}
+/*fin para mobil*/
+.mainpe {
+  height: 1000px;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+  background-size: cover;
+}
+
+.parrafo {
+  text-align: center;
+  font-family: "Sofadi One", system-ui;
+  font-size: 25px;
+  padding: 0 0 30px 0;
+}
+
+#grillape {
+  display: grid;
+  width: 100%;
+  height: 300px;
+  grid-template-rows: 350px;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-areas: "a1 a2 a3 a4";
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img:hover {
+  height: 350px;
+  width: 350px;
+}
+
+.imgp {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+
+.simple {
+  grid-area: "a1";
+  height: 300px;
+  width: 300px;
+}
+
+.doble {
+  grid-area: "a2";
+  height: 300px;
+  width: 300px;
+}
+
+.diez {
+  grid-area: "a3";
+  height: 300px;
+  width: 300px;
+}
+
+.veinte {
+  grid-area: "a4";
+  height: 300px;
+  width: 300px;
+}
+
+/*para mobil*/
+@media only screen and (max-width: 600px) {
+  /*main*/
+  .mainpe {
+    height: 2000px;
+    background-size: contain;
+  }
+  #grillape {
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    grid-template-rows: 350px;
+    grid-template-columns: 300px;
+    grid-template-areas: "a1" "a2" "a3" "a4";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .parrafo {
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
+  .simple {
+    grid-area: "a1";
+    padding: 0;
+  }
+  .doble {
+    grid-area: "a2";
+    padding: 0;
+  }
+  .diez {
+    grid-area: "a3";
+    padding: 0;
+  }
+  .veinte {
+    grid-area: "a4";
+    padding: 0;
+  }
+  /*fin main*/
+}
+/*fin para mobil*/
+/*main*/
+.mainubi {
+  height: 1000px;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+  background-size: cover;
+}
+
+#grillaubi {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-rows: 500px;
+  grid-template-columns: 500px;
+  grid-template-areas: "a1";
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  grid-area: "a1";
+  height: 500px;
+  width: 500px;
+}
+
+.parrafoubi {
+  text-align: center;
+  padding: 0 0 50px 0;
+  font-family: "Sofadi One", system-ui;
+  font-size: 25px;
+}
+
+/*fin main*/
+/*para mobil*/
+@media only screen and (max-width: 600px) {
+  /*main*/
+  .mainubi {
+    height: 600px;
+    background-size: contain;
+  }
+  #grillaubi {
+    display: grid;
+    width: 100%;
+    height: 350;
+    grid-template-rows: 350px;
+    grid-template-columns: 350px;
+    grid-template-areas: "a1";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe {
+    height: 350px;
+    width: 350px;
+    grid-area: "a1";
+  }
+  .parrafoubi {
+    padding: 0px 10px 50px 10px;
+    text-align: center;
+  }
+  /*fin main*/
+}
+/*fin para mobil*/
 /* desktop*/
-.navbar {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*header*/
+header {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-color: aqua;
+  text-align: center;
+  font-family: "Bevan", serif;
+}
+
+#banner {
+  height: 400px;
+  width: 100%;
+}
+
+nav {
   height: 10%;
   width: 100%;
   background-color: rgb(227, 160, 72);
   font-family: "Permanent Marker", cursive;
 }
-.navbar ul {
+nav ul {
   display: flex;
   list-style-type: none;
 }
-.navbar ul li {
+nav ul li {
   height: 50px;
   display: inline-flex;
   width: 19%;
@@ -17,21 +472,63 @@
   justify-content: center;
   align-items: center;
 }
-.navbar ul li a {
+nav ul li a {
   text-decoration: none;
   color: black;
 }
 
-.footer {
+/*fin header*/
+main {
+  height: 900px;
+  padding-top: 100px;
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+  background-size: cover;
+}
+
+/*footer*/
+footer {
   height: 100px;
   width: 100%;
   background-color: rgb(227, 160, 72);
   font-family: "Ubuntu", sans-serif;
+  padding: 0 0 0 5px;
 }
-.footer .fo {
+footer .fo {
   font-family: "Bevan", serif;
 }
 
+/*fin footer*/
 /*fin desktop*/
+/*para mobil*/
+@media only screen and (max-width: 600px) {
+  /*header*/
+  header {
+    height: 650px;
+    background-color: rgb(227, 160, 72);
+  }
+  nav {
+    height: 200px;
+  }
+  nav ul {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /*fin header*/
+  /*main*/
+  main {
+    height: 600px;
+  }
+  /*fin main*/
+  /*footer*/
+  footer {
+    height: 100px;
+    width: 100%;
+    padding: 0 0 0 5px;
+  }
+  /*fin footer*/
+}
+/*fin para mobil*/
 
 /*# sourceMappingURL=styles.css.map */

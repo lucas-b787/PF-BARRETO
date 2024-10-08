@@ -1,0 +1,92 @@
+/*main*/ 
+.maincon{
+    height: 650px;
+    width: 100%;
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
+    background-size: cover;
+}
+.registro{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Sofadi One", system-ui;
+}    
+#mensaje{
+    vertical-align: top;
+}
+#grillacon{
+    display: grid;
+    height: 300px;
+    grid-template-rows: 350px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: "a1 a2 a3";
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;  
+}
+img:hover{
+    height: 350px;
+    width: 350px;
+}
+.mail{
+    height: 300px;
+    width: 300px;
+    grid-area: "a1"; 
+}
+.pmail{
+    height: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: "Sofadi One", system-ui;
+    font-size: 25px;
+}
+.insta{
+    height: 300px;
+    width: 300px;
+    grid-area: "a2";
+}
+.whatsapp{
+    height: 300px;
+    width: 300px;
+    grid-area: "a3";
+}
+.pwhatsapp{
+    height: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: "Sofadi One", system-ui;
+    font-size: 25px;
+}
+/*fin main*/
+/*para mobil*/
+@media only screen and (max-width:600px){
+    /*main*/
+    .maincon{
+        height: 1400px;
+        background-size: contain;
+    }
+    .registro{
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    #grillacon{
+        display: grid;
+        height: 1100px;
+        grid-template-rows: 350px;
+        grid-template-columns: 300px;
+        grid-template-areas: "a1"
+                             "a2"
+                             "a3";
+        align-content: center;
+        justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    } 
+    /*fin main*/
+ }
+ /*fin para mobil*/
