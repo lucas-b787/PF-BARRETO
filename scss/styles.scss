@@ -11,23 +11,28 @@
 }
 /*header*/
 header{
-    height: 500px;
+    box-sizing: border-box;
+    height: 501px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
-    background-color: aqua;
+    height: 51px;
+    background-color: #1fd7fc;
     text-align: center;
     font-family: "Bevan", serif;
+    color: #f6fafe;
 }
 #banner{
     height: 400px;
     width: 100%;
 }
+/* porque queda un espacio en blanco entre el nav y el banner? */
 nav{
-    height: 10%;
+    box-sizing: border-box;
+    height: 50px;
     width: 100%;
-    background-color: rgb(227, 160, 72);
+    background-color: #a5a4a1;
     font-family: "Permanent Marker", cursive;
     ul{
         display: flex;
@@ -46,23 +51,42 @@ nav{
         }
     }
 }
+a:hover{
+    color: #a06802;
+
+}
 /*fin header*/
 main{
     height: 900px;
     padding-top: 100px;
-    background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-    background-size: cover;
+    background-color: #1F2B37;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.indexh{
+    font-family: "Bevan", serif;
+    padding: 0px 0 0px 10px;
+    color: #d9a13b;
+}
+.indexp{
+    padding: 10px 10px 10px 10px;
+    font-family: "Sofadi One", system-ui;
+    color: #e8e9e2;
 }
 /*footer*/
 footer{
+    box-sizing: border-box;
     height: 100px;
     width: 100%;
-    background-color: rgb(227, 160, 72);
+    background-color: #a5a4a1;
     font-family: "Ubuntu", sans-serif;
     padding: 0 0 0 5px;
-    .fo{
+      .fo{
         font-family: "Bevan", serif;
-     }
+      }
 }
 /*fin footer*/
 /*fin desktop*/
@@ -71,7 +95,6 @@ footer{
     /*header*/
     header{
        height: 650px;
-       background-color: rgb(227, 160, 72);
    }
    nav{
        height: 200px;
@@ -85,7 +108,7 @@ footer{
    /*fin header*/
    /*main*/
    main{
-       height: 600px;
+       height: 700px;
    }
    /*fin main*/
     /*footer*/

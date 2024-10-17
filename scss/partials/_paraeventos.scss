@@ -1,17 +1,18 @@
 $medida: 300px;
+$parrafo: #e8e9e2;
 
 .mainpe{
     height: 1000px;
     width: 100%;
     padding-top: 100px;
-    background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-    background-size: cover;
+    
 }
 .parrafo{
     text-align: center;
     font-family: "Sofadi One", system-ui;
     font-size: 25px;
     padding: 0 0 30px 0;
+    color: $parrafo;
 }
 #grillape{
     display: grid;
@@ -31,6 +32,7 @@ img:hover{
 .imgp{
     text-align: center;
     font-family: "Permanent Marker", cursive;
+    color: $parrafo;
 }
 .simple{
     grid-area: "a1";
@@ -51,6 +53,12 @@ img:hover{
     grid-area: "a4";
     height: $medida;
     width: $medida;
+}
+@media (hover: hover){
+    img:hover{
+        height: 350px;
+        width: 350px;
+    }
 }
 /*para mobil*/
 @media only screen and (max-width:600px) { 

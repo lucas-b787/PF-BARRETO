@@ -1,9 +1,10 @@
+$parrafo: #e8e9e2;
+$medida: 200px;
+
 /*main*/ 
 .maincon{
     height: 650px;
     width: 100%;
-    background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-    background-size: cover;
 }
 .registro{
     padding-top: 50px;
@@ -11,6 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     font-family: "Sofadi One", system-ui;
+    color: $parrafo;
 }    
 #mensaje{
     vertical-align: top;
@@ -25,38 +27,56 @@
     align-items: center;
     justify-content: space-around;  
 }
-img:hover{
-    height: 350px;
-    width: 350px;
-}
 .mail{
-    height: 300px;
-    width: 300px;
-    grid-area: "a1"; 
+    height: $medida;
+    width: $medida;
+    padding: 0 0 0 50px;
+    grid-area: "a1";
+}
+.mail:hover{
+    height: $medida;
+    width: $medida;
 }
 .pmail{
-    height: 10px;
-    width: 300px;
+    height: 30px;
+    width: 305px;
     text-align: center;
     font-family: "Sofadi One", system-ui;
     font-size: 25px;
+    color: $parrafo;
 }
 .insta{
-    height: 300px;
-    width: 300px;
+    height: $medida;
+    width: $medida;
     grid-area: "a2";
+    padding: 0 0 32px 0;
+}
+.insta:hover{
+    height: $medida;
+    width: $medida;
 }
 .whatsapp{
-    height: 300px;
-    width: 300px;
+    height: $medida;
+    width: $medida;
     grid-area: "a3";
 }
+.whatsapp:hover{
+    height: $medida;
+    width: $medida;
+}
 .pwhatsapp{
-    height: 10px;
-    width: 300px;
+    height: 30px;
+    width: 200px;
     text-align: center;
     font-family: "Sofadi One", system-ui;
     font-size: 25px;
+    color: $parrafo;
+}
+@media (hover: hover){
+    img:hover{
+        height: 200px;
+        width: 200px;
+    }
 }
 /*fin main*/
 /*para mobil*/

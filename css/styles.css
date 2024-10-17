@@ -2,8 +2,6 @@
 .maincon {
   height: 650px;
   width: 100%;
-  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-  background-size: cover;
 }
 
 .registro {
@@ -12,6 +10,7 @@
   flex-direction: row;
   justify-content: space-around;
   font-family: "Sofadi One", system-ui;
+  color: #e8e9e2;
 }
 
 #mensaje {
@@ -29,45 +28,65 @@
   justify-content: space-around;
 }
 
-img:hover {
-  height: 350px;
-  width: 350px;
-}
-
 .mail {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
+  padding: 0 0 0 50px;
   grid-area: "a1";
 }
 
+.mail:hover {
+  height: 200px;
+  width: 200px;
+}
+
 .pmail {
-  height: 10px;
-  width: 300px;
+  height: 30px;
+  width: 305px;
   text-align: center;
   font-family: "Sofadi One", system-ui;
   font-size: 25px;
+  color: #e8e9e2;
 }
 
 .insta {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   grid-area: "a2";
+  padding: 0 0 32px 0;
+}
+
+.insta:hover {
+  height: 200px;
+  width: 200px;
 }
 
 .whatsapp {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   grid-area: "a3";
 }
 
+.whatsapp:hover {
+  height: 200px;
+  width: 200px;
+}
+
 .pwhatsapp {
-  height: 10px;
-  width: 300px;
+  height: 30px;
+  width: 200px;
   text-align: center;
   font-family: "Sofadi One", system-ui;
   font-size: 25px;
+  color: #e8e9e2;
 }
 
+@media (hover: hover) {
+  img:hover {
+    height: 200px;
+    width: 200px;
+  }
+}
 /*fin main*/
 /*para mobil*/
 @media only screen and (max-width: 600px) {
@@ -103,8 +122,17 @@ img:hover {
   height: 700px;
   width: 100%;
   padding-top: 100px;
-  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-  background-size: cover;
+}
+
+#grillanh {
+  display: grid;
+  height: 400px;
+  grid-template-rows: 500px;
+  grid-template-columns: 600px 600px;
+  grid-template-areas: "a1 a2";
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .parrafonh {
@@ -112,16 +140,24 @@ img:hover {
   font-family: "Sofadi One", system-ui;
   font-size: 20px;
   padding: 0 10px 0 10px;
+  color: #e8e9e2;
 }
 
 .fabrica {
   height: 400px;
   width: 600px;
-  padding: 30px 100px 50px 20px;
+  grid-area: "a1";
+}
+
+.fabrica:hover {
+  height: 400px;
+  width: 600px;
 }
 
 .iframenh {
-  padding: 0 100px 50px 50px;
+  height: 400px;
+  width: 600px;
+  grid-area: "a2";
 }
 
 /*para mobil*/
@@ -166,8 +202,6 @@ img:hover {
   height: 1200px;
   width: 100%;
   padding-top: 100px;
-  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-  background-size: cover;
 }
 
 #grillanc {
@@ -180,11 +214,6 @@ img:hover {
   align-items: center;
   justify-content: space-around;
   grid-row-gap: 30px;
-}
-
-img:hover {
-  height: 350px;
-  width: 350px;
 }
 
 .ipa {
@@ -238,9 +267,16 @@ img:hover {
 .img {
   text-align: center;
   font-family: "Permanent Marker", cursive;
-  background-color: antiquewhite;
+  background-color: #d9a13b;
+  color: #e8e9e2;
 }
 
+@media (hover: hover) {
+  img:hover {
+    height: 350px;
+    width: 350px;
+  }
+}
 /*main*/
 /*para mobil*/
 @media only screen and (max-width: 600px) {
@@ -267,8 +303,6 @@ img:hover {
   height: 1000px;
   width: 100%;
   padding-top: 100px;
-  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-  background-size: cover;
 }
 
 .parrafo {
@@ -276,6 +310,7 @@ img:hover {
   font-family: "Sofadi One", system-ui;
   font-size: 25px;
   padding: 0 0 30px 0;
+  color: #e8e9e2;
 }
 
 #grillape {
@@ -298,6 +333,7 @@ img:hover {
 .imgp {
   text-align: center;
   font-family: "Permanent Marker", cursive;
+  color: #e8e9e2;
 }
 
 .simple {
@@ -324,6 +360,12 @@ img:hover {
   width: 300px;
 }
 
+@media (hover: hover) {
+  img:hover {
+    height: 350px;
+    width: 350px;
+  }
+}
 /*para mobil*/
 @media only screen and (max-width: 600px) {
   /*main*/
@@ -370,8 +412,6 @@ img:hover {
   height: 1000px;
   width: 100%;
   padding-top: 100px;
-  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-  background-size: cover;
 }
 
 #grillaubi {
@@ -397,6 +437,7 @@ iframe {
   padding: 0 0 50px 0;
   font-family: "Sofadi One", system-ui;
   font-size: 25px;
+  color: #e8e9e2;
 }
 
 /*fin main*/
@@ -438,15 +479,18 @@ iframe {
 
 /*header*/
 header {
-  height: 500px;
+  box-sizing: border-box;
+  height: 501px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 h1 {
-  background-color: aqua;
+  height: 51px;
+  background-color: #1fd7fc;
   text-align: center;
   font-family: "Bevan", serif;
+  color: #f6fafe;
 }
 
 #banner {
@@ -455,9 +499,10 @@ h1 {
 }
 
 nav {
-  height: 10%;
+  box-sizing: border-box;
+  height: 50px;
   width: 100%;
-  background-color: rgb(227, 160, 72);
+  background-color: #a5a4a1;
   font-family: "Permanent Marker", cursive;
 }
 nav ul {
@@ -477,19 +522,40 @@ nav ul li a {
   color: black;
 }
 
+a:hover {
+  color: #a06802;
+}
+
 /*fin header*/
 main {
   height: 900px;
   padding-top: 100px;
-  background-image: url("https://image.slidesdocs.com/responsive-images/background/yellow-summer-festival-beer-powerpoint-background_d100befabf__960_540.jpg");
-  background-size: cover;
+  background-color: #1F2B37;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.indexh {
+  font-family: "Bevan", serif;
+  padding: 0px 0 0px 10px;
+  color: #d9a13b;
+}
+
+.indexp {
+  padding: 10px 10px 10px 10px;
+  font-family: "Sofadi One", system-ui;
+  color: #e8e9e2;
 }
 
 /*footer*/
 footer {
+  box-sizing: border-box;
   height: 100px;
   width: 100%;
-  background-color: rgb(227, 160, 72);
+  background-color: #a5a4a1;
   font-family: "Ubuntu", sans-serif;
   padding: 0 0 0 5px;
 }
@@ -504,7 +570,6 @@ footer .fo {
   /*header*/
   header {
     height: 650px;
-    background-color: rgb(227, 160, 72);
   }
   nav {
     height: 200px;
@@ -518,7 +583,7 @@ footer .fo {
   /*fin header*/
   /*main*/
   main {
-    height: 600px;
+    height: 700px;
   }
   /*fin main*/
   /*footer*/
