@@ -17,13 +17,15 @@ $parrafo: #e8e9e2;
 #grillape{
     display: grid;
     width: 100%;
-    height: 300px;
+    height: 500px;
     grid-template-rows: 350px;
     grid-template-columns: 250px 250px 250px 250px;
     grid-template-areas: "a1 a2 a3 a4";
     justify-items: center;
     align-items: center;
     justify-content: space-around;
+    box-sizing: border-box;
+    padding-top: 50px;
 }
 img:hover{
     height: 350px;
@@ -71,7 +73,7 @@ img:hover{
         display: grid;
         width: 100%;
         height: 1500px;
-        grid-template-rows: 350px;
+        grid-template-rows: 400px;
         grid-template-columns: 300px;
         grid-template-areas: "a1"
                              "a2"
@@ -80,9 +82,10 @@ img:hover{
         justify-items: center;
         align-items: center;
         justify-content: center;
+        padding-top: 0;
     }
     .parrafo{
-        padding: 0 10px 0 10px;
+        padding: 0 10px 100px 10px;
         text-align: center;
     }
     .simple{

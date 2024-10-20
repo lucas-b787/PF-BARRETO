@@ -14,7 +14,6 @@ $medida: 300px;
     grid-template-areas: "a1 a2 a3"
                          "a4 a5 a6"
                          "a7 a8 a9";
-
     justify-items: center;
     align-items: center;
     justify-content: space-around;
@@ -68,8 +67,8 @@ $medida: 300px;
 }
 @media (hover: hover){
     img:hover{
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
     }
 }
 /*main*/
@@ -77,7 +76,7 @@ $medida: 300px;
 @media only screen and (max-width:600px) { 
     /*main*/
     .mainnc{
-        height: 3000px;
+        height: 3050px;
         background-size: contain;      
     }
     #grillanc{
@@ -97,6 +96,8 @@ $medida: 300px;
         justify-items: center;
         align-items: center;
         justify-content: center;
+        padding-bottom: 50px;
+        box-sizing: border-box;
     }
     /*fin main*/
 }

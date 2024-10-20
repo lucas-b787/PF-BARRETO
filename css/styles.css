@@ -102,6 +102,7 @@
     padding-top: 50px;
     align-content: center;
     flex-wrap: wrap;
+    align-items: center;
   }
   #grillacon {
     display: grid;
@@ -126,9 +127,10 @@
 
 #grillanh {
   display: grid;
-  height: 400px;
-  grid-template-rows: 500px;
-  grid-template-columns: 600px 600px;
+  height: 500px;
+  width: 100%;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%;
   grid-template-areas: "a1 a2";
   justify-items: center;
   align-items: center;
@@ -144,33 +146,52 @@
 }
 
 .fabrica {
-  height: 400px;
-  width: 600px;
+  justify-items: center;
+  align-items: center;
+  height: 350px;
+  width: 80%;
   grid-area: "a1";
+  padding: 0 0 0 10%;
+}
+
+.fabricap {
+  text-align: center;
+  font-family: "Sofadi One", system-ui;
+  font-size: 20px;
+  color: #e8e9e2;
 }
 
 .fabrica:hover {
-  height: 400px;
-  width: 600px;
+  height: 350px;
+  width: 80%;
 }
 
 .iframenh {
-  height: 400px;
-  width: 600px;
+  align-items: center;
+  height: 350px;
+  width: 80%;
   grid-area: "a2";
+  padding: 0 0 0 10%;
+}
+
+.iframenhp {
+  text-align: center;
+  font-family: "Sofadi One", system-ui;
+  font-size: 20px;
+  color: #e8e9e2;
 }
 
 /*para mobil*/
 @media only screen and (max-width: 600px) {
   /*main*/
   .mainnh {
-    height: 1000px;
+    height: 1070px;
     background-size: contain;
     padding-top: 50px;
   }
   #grillanh {
     display: grid;
-    grid-template-rows: 350px;
+    grid-template-rows: 400px;
     grid-template-columns: 300px;
     grid-template-areas: "a1" "a2" "a3";
     justify-items: center;
@@ -273,8 +294,8 @@
 
 @media (hover: hover) {
   img:hover {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
 }
 /*main*/
@@ -282,7 +303,7 @@
 @media only screen and (max-width: 600px) {
   /*main*/
   .mainnc {
-    height: 3000px;
+    height: 3050px;
     background-size: contain;
   }
   #grillanc {
@@ -295,6 +316,8 @@
     justify-items: center;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
+    box-sizing: border-box;
   }
   /*fin main*/
 }
@@ -316,13 +339,15 @@
 #grillape {
   display: grid;
   width: 100%;
-  height: 300px;
+  height: 500px;
   grid-template-rows: 350px;
   grid-template-columns: 250px 250px 250px 250px;
   grid-template-areas: "a1 a2 a3 a4";
   justify-items: center;
   align-items: center;
   justify-content: space-around;
+  box-sizing: border-box;
+  padding-top: 50px;
 }
 
 img:hover {
@@ -377,15 +402,16 @@ img:hover {
     display: grid;
     width: 100%;
     height: 1500px;
-    grid-template-rows: 350px;
+    grid-template-rows: 400px;
     grid-template-columns: 300px;
     grid-template-areas: "a1" "a2" "a3" "a4";
     justify-items: center;
     align-items: center;
     justify-content: center;
+    padding-top: 0;
   }
   .parrafo {
-    padding: 0 10px 0 10px;
+    padding: 0 10px 100px 10px;
     text-align: center;
   }
   .simple {
@@ -498,6 +524,7 @@ h1 {
   width: 100%;
 }
 
+/* porque queda un espacio en blanco entre el nav y el banner? */
 nav {
   box-sizing: border-box;
   height: 50px;
@@ -508,6 +535,7 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
+  box-sizing: border-box;
 }
 nav ul li {
   height: 50px;
@@ -516,6 +544,7 @@ nav ul li {
   text-align: center;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 nav ul li a {
   text-decoration: none;
@@ -573,6 +602,7 @@ footer .fo {
   }
   nav {
     height: 200px;
+    padding-bottom: 5px;
   }
   nav ul {
     height: 100%;
@@ -583,7 +613,7 @@ footer .fo {
   /*fin header*/
   /*main*/
   main {
-    height: 700px;
+    height: 750px;
   }
   /*fin main*/
   /*footer*/
