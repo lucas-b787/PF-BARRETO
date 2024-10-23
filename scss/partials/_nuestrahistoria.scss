@@ -2,19 +2,19 @@ $colorp: #e8e9e2;
 
 /*main*/
 .mainnh{
-    height: 700px;
+    height: 100%;
     width: 100%;
     padding-top: 100px;
 }
 #grillanh{
     display: grid;
-    height: 500px;
+    height: 400px;
     width: 100%;
     grid-template-rows: 100%;
     grid-template-columns: 50% 50%;
     grid-template-areas: "a1 a2";
     justify-items: center;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
 }
 .parrafonh{

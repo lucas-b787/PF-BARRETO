@@ -1,6 +1,6 @@
 /*main*/
 .maincon {
-  height: 650px;
+  height: 400px;
   width: 100%;
 }
 
@@ -19,9 +19,9 @@
 
 #grillacon {
   display: grid;
-  height: 300px;
-  grid-template-rows: 350px;
-  grid-template-columns: 300px 300px 300px;
+  height: 150px;
+  grid-template-rows: 150px;
+  grid-template-columns: 100px 100px 100px;
   grid-template-areas: "a1 a2 a3";
   justify-items: center;
   align-items: center;
@@ -29,20 +29,19 @@
 }
 
 .mail {
-  height: 200px;
-  width: 200px;
-  padding: 0 0 0 50px;
+  height: 80px;
+  width: 80px;
+  padding: 0 0 0 112px;
   grid-area: "a1";
 }
 
 .mail:hover {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
 }
 
 .pmail {
   height: 30px;
-  width: 305px;
   text-align: center;
   font-family: "Sofadi One", system-ui;
   font-size: 25px;
@@ -50,31 +49,31 @@
 }
 
 .insta {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
   grid-area: "a2";
   padding: 0 0 32px 0;
 }
 
 .insta:hover {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
 }
 
 .whatsapp {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
+  padding: 0 0 0 25px;
   grid-area: "a3";
 }
 
 .whatsapp:hover {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
 }
 
 .pwhatsapp {
   height: 30px;
-  width: 200px;
   text-align: center;
   font-family: "Sofadi One", system-ui;
   font-size: 25px;
@@ -92,7 +91,7 @@
 @media only screen and (max-width: 600px) {
   /*main*/
   .maincon {
-    height: 1400px;
+    height: 700px;
     background-size: contain;
   }
   .registro {
@@ -106,9 +105,9 @@
   }
   #grillacon {
     display: grid;
-    height: 1100px;
-    grid-template-rows: 350px;
-    grid-template-columns: 300px;
+    height: 400px;
+    grid-template-rows: 150px;
+    grid-template-columns: 100px;
     grid-template-areas: "a1" "a2" "a3";
     align-content: center;
     justify-items: center;
@@ -120,20 +119,20 @@
 /*fin para mobil*/
 /*main*/
 .mainnh {
-  height: 700px;
+  height: 100%;
   width: 100%;
   padding-top: 100px;
 }
 
 #grillanh {
   display: grid;
-  height: 500px;
+  height: 400px;
   width: 100%;
   grid-template-rows: 100%;
   grid-template-columns: 50% 50%;
   grid-template-areas: "a1 a2";
   justify-items: center;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 
@@ -323,7 +322,7 @@
 }
 /*fin para mobil*/
 .mainpe {
-  height: 1000px;
+  height: 600px;
   width: 100%;
   padding-top: 100px;
 }
@@ -435,7 +434,7 @@ img:hover {
 /*fin para mobil*/
 /*main*/
 .mainubi {
-  height: 1000px;
+  height: 650px;
   width: 100%;
   padding-top: 100px;
 }
@@ -557,14 +556,19 @@ a:hover {
 
 /*fin header*/
 main {
-  height: 900px;
-  padding-top: 100px;
+  height: 550px;
   background-color: #1F2B37;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.indexh2 {
+  font-family: "Bevan", serif;
+  padding: 20px 0 0px 10px;
+  color: #d9a13b;
 }
 
 .indexh {
@@ -598,7 +602,11 @@ footer .fo {
 @media only screen and (max-width: 600px) {
   /*header*/
   header {
-    height: 650px;
+    height: 500px;
+  }
+  #banner {
+    height: 250px;
+    width: 100%;
   }
   nav {
     height: 200px;

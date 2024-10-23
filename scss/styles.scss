@@ -62,14 +62,18 @@ a:hover{
 }
 /*fin header*/
 main{
-    height: 900px;
-    padding-top: 100px;
+    height: 550px;
     background-color: #1F2B37;
 }
 a{
     text-decoration: none;
     color: black;
     
+}
+.indexh2{
+    font-family: "Bevan", serif;
+    padding: 20px 0 0px 10px;
+    color: #d9a13b;
 }
 .indexh{
     font-family: "Bevan", serif;
@@ -99,8 +103,12 @@ footer{
 @media only screen and (max-width:600px) {
     /*header*/
     header{
-       height: 650px;
+       height: 500px;
    }
+   #banner{
+    height: 250px;
+    width: 100%;
+    }
    nav{
        height: 200px;
        padding-bottom: 5px;

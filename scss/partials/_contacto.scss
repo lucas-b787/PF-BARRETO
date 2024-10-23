@@ -1,9 +1,9 @@
 $parrafo: #e8e9e2;
-$medida: 200px;
+$medida: 80px;
 
 /*main*/ 
 .maincon{
-    height: 650px;
+    height: 400px;
     width: 100%;
 }
 .registro{
@@ -19,9 +19,9 @@ $medida: 200px;
 }
 #grillacon{
     display: grid;
-    height: 300px;
-    grid-template-rows: 350px;
-    grid-template-columns: 300px 300px 300px;
+    height: 150px;
+    grid-template-rows: 150px;
+    grid-template-columns: 100px 100px 100px;
     grid-template-areas: "a1 a2 a3";
     justify-items: center;
     align-items: center;
@@ -30,7 +30,7 @@ $medida: 200px;
 .mail{
     height: $medida;
     width: $medida;
-    padding: 0 0 0 50px;
+    padding: 0 0 0 112px;
     grid-area: "a1";
 }
 .mail:hover{
@@ -39,7 +39,6 @@ $medida: 200px;
 }
 .pmail{
     height: 30px;
-    width: 305px;
     text-align: center;
     font-family: "Sofadi One", system-ui;
     font-size: 25px;
@@ -58,6 +57,7 @@ $medida: 200px;
 .whatsapp{
     height: $medida;
     width: $medida;
+    padding: 0 0 0 25px;
     grid-area: "a3";
 }
 .whatsapp:hover{
@@ -66,7 +66,6 @@ $medida: 200px;
 }
 .pwhatsapp{
     height: 30px;
-    width: 200px;
     text-align: center;
     font-family: "Sofadi One", system-ui;
     font-size: 25px;
@@ -83,7 +82,7 @@ $medida: 200px;
 @media only screen and (max-width:600px){
     /*main*/
     .maincon{
-        height: 1400px;
+        height: 700px;
         background-size: contain;
     }
     .registro{
@@ -94,12 +93,13 @@ $medida: 200px;
         align-content: center;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between;
     }
     #grillacon{
         display: grid;
-        height: 1100px;
-        grid-template-rows: 350px;
-        grid-template-columns: 300px;
+        height: 400px;
+        grid-template-rows: 150px;
+        grid-template-columns: 100px;
         grid-template-areas: "a1"
                              "a2"
                              "a3";
