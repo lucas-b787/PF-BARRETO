@@ -4,7 +4,7 @@ $colorp: #e8e9e2;
 .mainnh{
     height: 100%;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #grillanh{
     display: grid;
@@ -21,7 +21,7 @@ $colorp: #e8e9e2;
     text-align: center;
     font-family: "Sofadi One", system-ui;
     font-size: 20px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 20px 10px;
     color: $colorp;
 }
 .fabrica{
@@ -37,7 +37,6 @@ $colorp: #e8e9e2;
     font-family: "Sofadi One", system-ui;
     font-size: 20px;
     color: $colorp;
-    
 }
 .fabrica:hover{
     height: 350px;
